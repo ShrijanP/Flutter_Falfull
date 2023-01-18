@@ -58,6 +58,7 @@ class _LoginScreenState extends State<LoginScreen> {
     return Form(
       key: _formKey,
       child: Scaffold(
+        // backgroundColor: Colors.black12,
         body: Center(
           child: SingleChildScrollView(
             child: Container(
@@ -164,7 +165,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text(
-                        "New Here? Create an account ",
+                        "New Here? ",
                         style: TextStyle(color: Colors.grey.shade800),
                       ),
                       InkWell(
